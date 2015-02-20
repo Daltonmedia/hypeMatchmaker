@@ -13,7 +13,7 @@ $result = elgg_delete_annotations(array(
 if ($result) {
 	system_message(elgg_echo('matchmaker:refresh:success'));
 } else {
-	reigster_error(elgg_echo('matchmaker:refresh:error'));
+	register_error(elgg_echo('matchmaker:refresh:error'));
 }
 
 forward(REFERER);
